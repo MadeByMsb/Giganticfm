@@ -1,0 +1,29 @@
+:root {
+     --color-theme:#00ce7d;
+  }
+
+/* Color */
+body.light-d .years-experience h3,
+.years-experience h3,.awwards h2,.blog-style a:hover,.pricing-plan-one li i,.portfolio-img span,
+.portfolio-img h3 a:hover,header.header-style-three.fore .hamburger-icon a:hover,.featured-area-for-data a:hover,
+p.footer i,.pricing-Plans-style-one li i,.features.provide i,li.menu-item-has-children.active > a,
+.phone-style a:hover,.menu-inner.ps.ps--active-x.ps--active-y .portfolio-img h3 a:hover,.blog-post-data h2:hover,
+.information-data a:hover,.phone a:hover,.start-footer span a:hover,.planning-make h3:hover,ul.Meta li a:hover,
+.category-info p i,.category-info h3 a:hover,.what-we-provide.address h2 a:hover,.white_content i:hover,
+.blog-style-two-data a:hover,.recent-post a:hover,.location-data a,ul.quick-links li a:hover,.information-data h6,
+.services-style-one h4 a:hover,.phone-style h4,.design-agency .what-we-provide span,.blog-style-three-data ul li i,
+.blog-post-data ul li i,.recent-post i,.hamburger-icon a:hover,.client-help a:hover,.blog-style-three-data h3 a:hover{
+    color: var(--color-theme);
+}
+/* Background color-theme */
+.planning-make:before,.services-style-two ul li a:before,.services-style-two-data > a:hover,
+.social-media-Intege .social-media li a i:hover,.location-data a:before,.style-design span a,
+.pricing-plan-one.drak .package,.mobile-nav .res-cross:hover .cls-leftright,
+.mobile-nav .res-cross:hover .cls-rightleft,.top-bar-header .social-media li a:hover i,
+.mobile-nav .res-cross:hover .cls-leftright,.mobile-nav .res-cross:hover .cls-rightleft
+.progress-bar__value--1.js-animated,.menu-cls-btn:hover .cls-leftright,
+.menu-cls-btn:hover .cls-leftright, .menu-cls-btn:hover .cls-rightleft,.photo.owl-theme .owl-nav [class*=owl-]:hover,
+.start-footer ul li a:hover,.navbar-links li.navbar-dropdown .dropdown a:not(:last-child):after,
+ul.features li:before,.client-help:before,.close i,.preloader,.comment li a:hover{
+    background-color: var(--color-theme);
+}

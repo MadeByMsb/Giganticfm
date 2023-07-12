@@ -1,0 +1,152 @@
+@media (max-width: 1400px){
+.home-one-featured-area h1 {
+    font-size: 58px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}}
+
+.desc{
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+@media (max-width: 600px){
+    .home-one-featured-area h1 {
+        font-size: 35px;
+        font-weight: 600;
+        margin-bottom: 20px;
+    }
+    .navbar-links {
+        list-style-type: none;
+        display: flex;
+        display: none;
+    }
+    .desc{
+        font-weight: 400;
+        margin-bottom: 10px;
+    }
+    
+}
+
+.newsletter form input[type="text"] {
+    width: 65%;
+    height: 60px;
+    padding-left: 30px;
+    border: 3px solid #464646;
+    outline: none;
+    color: #ddd;
+    background-color: transparent;
+    border-radius: 40px;
+    padding-right: -67px;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    position: relative;
+    justify-content: end;
+}
+
+
+.card1 {
+    display: inline-block;
+    width: 25%;
+    padding: 18px;
+    box-sizing: border-box;
+    text-align: center;
+    border: 1.2px solid #ccc;
+    border-radius: 15px;
+    margin: 10px;
+    color:white;
+    transition: all 0.3s ease;
+
+}
+.card1:hover {
+    background-color: #348d015b;
+    transform: scale(1.05);
+}
+
+.card1 p {
+    color:white;
+}
+
+.sec-btn {
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: 500;
+    text-align: center;
+    text-transform: capitalize;
+    color: #ffffff !important;
+    height: 60px;
+    background: rgb(0 206 125);
+    background: linear-gradient(90deg, #368E00 0%, #006553 100%);
+    -moz-box-shadow: 5px 5px 30px 0px rgba(195,120,251,0.35);
+    display: inline-block;
+    overflow: hidden;
+    padding: 18px 50px;
+    border-radius: 30px;
+    position: relative;
+    z-index: 1;
+    letter-spacing: 0.5px;
+    transition: all 0.2s cubic-bezier(0.98, 0.57, 1, 1) 0s;
+    font-weight: 700;
+}
+
+.card2 {
+    width: 22%;
+    background:#EEEEEE;
+    border: 2px solid #ccc;
+    padding: 15px;
+    margin: 8px;
+    border-radius: 15px;
+    display: inline-block;
+    text-align: center;
+    transition: all 0.3s ease;
+
+}
+.card2:hover {
+    background-color: #DCFFC7;
+    transform: scale(1.05);
+    border: 2px solid #3EA300;
+
+}
+
+.card-icon {
+    justify-content: left;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.card-heading {
+    font-size: 18px;
+    margin-bottom: 10px;
+    text-align: left;
+}
+
+.card-price {
+    font-size: 16px;
+    font-weight: bold;
+    text-align: left;
+
+}
+
+.card-rating {
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 5px;
+    font-size: 16px;
+    color: #ffc107;
+}
+
+@media only screen and (max-width: 768px) {
+    .card2 {
+      width: 46%;
+    }
+  }
+
+  @media only screen and (max-width: 480px) {
+    .card2 {
+        width: 44%;
+    }
+  }
+
