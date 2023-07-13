@@ -111,10 +111,12 @@
 
 }
 
-.card-icon {
-    justify-content: left;
-    font-size: 24px;
-    margin-bottom: 10px;
+.card-icon img{
+    margin-bottom: 15px;
+    margin-right: 188px;
+    width:50px;
+
+
 }
 
 .card-heading {
