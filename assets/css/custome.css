@@ -169,6 +169,173 @@
 }
 
 .about-unique .services-style-one:hover {
-    border: 2px solid #3EA300;
+    border: 1px solid #3EA300;
     
+}
+
+.logofont {
+    color: white;
+    font-weight: 600;
+    font-size: 35px;
+}
+
+@media screen and (max-width: 768px) {
+    .logofont {
+        color: white;
+        font-weight: 600;
+        font-size: 27px;
+    }
+
+}
+
+.owl-dots {
+    display: none;
+
+}
+
+.card1 {
+    display: inline-block;
+}
+
+@media screen and (max-width: 768px) {
+    .card1 {
+        display: none;
+    }
+
+}
+
+.card-container4 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    justify-content: center;
+
+}
+
+.card4 {
+    position: relative;
+    width: 330px;
+    height: 400px;
+    overflow: hidden;
+    margin: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card4:hover {
+    transform: scale(1.01);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+}
+
+.card4:hover .card-image {
+    filter: blur(0);
+}
+
+
+.card-image {
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+}
+
+.card-content {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    padding: 20px;
+    color: white;
+}
+
+.card-title {
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 10px;
+    color: white;
+
+}
+
+.card-subtitle {
+    font-size: 16px;
+    color: white;
+
+}
+
+.card-desc {
+    padding: 12px;
+    padding-right: 140px;
+    border-radius: 10px;
+    background-color: #000000b0;
+
+}
+
+@media screen and (max-width: 768px) {
+    .card-container4 {
+        flex-wrap: wrap;
+    }
+
+    .card4 {
+        width: calc(100% - 20px);
+    }
+
+    .text2 {
+        font-weight: 600;
+        color: black;
+        font-size: 15px;
+    }
+}
+
+
+.card5 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    max-width: 100%;
+    padding: 20px;
+    background-color: #ffffff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.377);
+    border-radius: 9px;
+}
+
+.left-column {
+    flex-basis: 50%;
+    text-align: left;
+}
+
+.right-column {
+    flex-basis: 50%;
+    text-align: right;
+}
+
+.text2 {
+    font-weight: 600;
+    color: black;
+    font-size: 18px;
+}
+
+@media screen and (max-width: 768px) {
+
+    .text2 {
+        font-weight: 600;
+        color: black;
+        font-size: 15px;
+    }
+}
+
+.loader-wrapper {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 99999;
+    text-align: center;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-image: url(../images/shape/dot-grid.png);
 }
