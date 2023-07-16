@@ -443,3 +443,142 @@
 .zoom-slider .owl-nav, .shape-style:before {
     display: flex;
 }}
+
+* {
+    box-sizing: border-box;
+}
+
+.row2 {
+    display: flex;
+    flex-wrap: wrap;
+    margin: -10px;
+    /* Negative margin to offset the padding */
+}
+
+.row2::after {
+    content: "";
+    display: table;
+    clear: both;
+
+}
+
+.column2 {
+    float: left;
+    width: 50%;
+    padding: 5px;
+}
+
+.column2 img {
+    border-radius: 10px;
+}
+
+
+.icon-with-text {
+    display: inline-flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.icon-with-text span {
+    font-size: 15px;
+    font-weight: 700;
+}
+
+.icon-with-text img {
+    width: 15%;
+}
+
+.img5 {
+    width: 524px;
+    margin-top: -444px;
+    margin-left: 857px;
+}
+
+.para1 {
+    padding-right: 391px;
+}
+
+
+/* Responsive layout - makes the columns stack on top of each other */
+@media screen and (max-width: 768px) {
+    .img5 {
+        display: none;
+    }
+
+    .para1 {
+        padding-right: 0px;
+        margin-bottom: 30px;
+
+    }
+
+    .column2 {
+        width: 100%;
+    }
+
+    .icon-with-text img {
+        width: 10%;
+    }
+
+    .column2 img {
+        border-radius: 10px;
+    }
+
+    .row2 {
+        width: 100%;
+        display: contents;
+
+    }
+}
+.card7 {
+    background-color: #f9f9f9;
+    padding: 20px;
+    margin-bottom: 13px;
+    border-radius: 10px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card7:hover {
+    background-color: #348d015b;
+    transform: scale(1.05);
+    box-shadow: 0 0 5px rgba(112, 112, 112, 0.5);
+
+}
+
+.card8 {
+    display: inline-block;
+    width: 250px;
+    background-color:white;
+    border: 1px solid ;
+    padding: 10px;
+    border-radius:10px;
+    margin: 10px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+
+}
+
+.para2 {
+    font-color:black;
+    text-align:center;
+}
+
+.card8 img {
+    max-width: 100%;
+    height: auto;
+}
+
+.card8:hover {
+    background-color: white;
+    color:black;
+    transform: scale(1.05);
+    box-shadow: 0 0 5px rgba(112, 112, 112, 0.5);
+
+}
+
+
+@media screen and (max-width: 600px) {
+	.card8 {
+        max-width: 100%;
+        width:100%
+       
+    }		
+}
