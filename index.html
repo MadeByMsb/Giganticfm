@@ -7,6 +7,9 @@
 	<title>Giganticfm.</title>
 
 	<meta name="theme-color" content="black">
+	<link href="assets/img/favicon.png" rel="icon">
+	<link href="assets/img/favicon.png" rel="apple-touch-icon">
+
 
 	<!-- <link rel="icon" href="assets/img/fav-icon.png"> -->
 	<!-- CSS only -->
@@ -29,6 +32,16 @@
 	<!-- color -->
 	<link rel="stylesheet" href="assets/css/color.css">
 	<link rel="stylesheet" href="assets/css/custome.css">
+
+	<link rel="stylesheet"
+		href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css"
+		integrity="sha384-jLKHWM3JRmfMU0A5x5AkjWkw/EYfGUAGagvnfryNV3F9VqM98XiIH7VBGVoxVSc7" crossorigin="anonymous">
+
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css"
+		integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA=="
+		crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
 
 </head>
 
@@ -68,10 +81,10 @@
 								<a href="#">Home</a>
 							</li>
 							<li class="navbar-dropdown">
-								<a href="#">About Us</a>
+								<a href="about.html">About Us</a>
 							</li>
 							<li class="navbar-dropdown">
-								<a href="#">Our Services</a>
+								<a href="services.html">Our Services</a>
 								<!-- <div class="dropdown">
 									<a href="our-portfolio.html">our portfolio</a>
 									<a href="#">portfolio details 1</a>
@@ -107,10 +120,10 @@
 					<a href="#">Home</a>
 				</li>
 				<li class="navbar-dropdown">
-					<a href="#">About Us</a>
+					<a href="about.html">About Us</a>
 				</li>
 				<li class="navbar-dropdown">
-					<a href="#">Our Services</a>
+					<a href="services.html">Our Services</a>
 					<!-- <div class="dropdown">
 						<a href="our-portfolio.html">our portfolio</a>
 						<a href="#">portfolio details 1</a>
@@ -131,7 +144,8 @@
 			<div class="container">
 				<div class="row">
 					<div class="col-lg-6">
-						<div class="home-one-featured-area">
+						<div class="home-one-featured-area" data-aos="fade-up" data-aos-delay="200"
+							data-aos-duration="500">
 							<h1>Complete Facilities Solutions
 								for Your Business Needs
 							</h1>
@@ -139,7 +153,7 @@
 								facilities
 								management solutions in the UAE.</p>
 						</div>
-						<div class="newsletter">
+						<div class="newsletter" data-aos="fade-up" data-aos-delay="200" data-aos-duration="500">
 
 							<form>
 								<input type="text" placeholder="How can we help?">
@@ -148,7 +162,7 @@
 						</div>
 						<br>
 
-						<div class="sm-services">
+						<div class="sm-services" data-aos="fade-up" data-aos-delay="200" data-aos-duration="500">
 							<div class="card1">
 								<svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="white"
 									class="bi bi-fire" viewBox="0 0 16 16">
@@ -180,13 +194,13 @@
 						</div>
 
 					</div>
-					<!-- <div class="col-lg-6">
+					<div class="col-lg-6">
 						<div class="extras view-btn">
 							<a href="javascript:void(0)" class="menu-btn">
 								<h5>See Our All Services<i class="fa-solid fa-plus"></i></h5>
 							</a>
 						</div>
-					</div> -->
+					</div>
 				</div>
 			</div>
 		</div>
@@ -194,10 +208,11 @@
 
 
 	</section>
+
 	<section class="gap">
-		<div class="container">
+		<div class="container" data-aos="fade-up" data-aos-delay="200" data-aos-duration="500">
 			<center>
-				<div class="heading">
+				<div class="heading" data-aos="fade-up" data-aos-delay="200" data-aos-duration="500">
 					<p>Our Popular Services</p>
 					<h2>Popular Projects <span
 							style="color: #3EA300; font-family:'Times New Roman', Times, serif; font-weight: 600;">
@@ -226,8 +241,6 @@
 					<div class="card-heading">Cleaning</div>
 					<div class="card-price">$14.99 <span class="card-rating" style="float: right;">3.4</span></div>
 				</div>
-
-
 
 
 				<div class="card2">
@@ -263,8 +276,8 @@
 						<div class="heading">
 							<h4 class="" style="color: #3EA300; font-family:'Times New Roman', Times, serif; font-weight: 600;font-size: 23px; font-weight: 700;  text-align: initial;
 			">About Us</h4>
-							<h3 style="font-size: 37px; font-weight: 700; margin-bottom: 20px;">Let’s Know About Our
-								Company</h3>
+							<h2 style="font-weight: 600; margin-bottom: 20px;">Let’s Know About Our
+								Company</h2>
 							<h5 class="mb-3" style="font-weight: 600;">We believe in the concept of ‘smart living’ and
 								have embraced a
 								customer-focused,
@@ -324,13 +337,260 @@
 			</div>
 		</div>
 	</section>
-	<section class="about-unique gap no-bottom">
+	<br>
+	<style>
+		.serviceimg {
+			display: block;
+		}
+
+		@media screen and (max-width: 768px) {
+			.serviceimg {
+				display: none;
+			}
+		}
+	</style>
+	<section class="unique-section gap no-top mt-5">
 		<div class="container">
-			<h4 class="" style="color: #3EA300; font-family:'Times New Roman', Times, serif; font-weight: 600;font-size: 23px; font-weight: 700;  text-align: initial;
+			<div class="row align-items-center">
+				<div class="offset-xl-3 offset-lg-2 col-xl-2 col-lg-3 col-md-12" data-aos="fade-up" data-aos-delay="200"
+					data-aos-duration="500">
+					<img alt="girl" class="w-auto mb-md-0 mb-4 serviceimg" src="assets/img/s3.png">
+				</div>
+				<div class="offset-xl-1 col-lg-6 col-md-12" data-aos="fade-up" data-aos-delay="200"
+					data-aos-duration="500">
+					<div class="shape-style ">
+						<figure class="effect-duke mt-sm-4">
+							<img class="w-100 " alt="girl" src="assets/img/s1.png">
+						</figure>
+					</div>
+				</div>
+				<div class="col-lg-5 p-0" data-aos="fade-up" data-aos-delay="200" data-aos-duration="500">
+					<div class="img-unique shape-style">
+						<figure class="effect-duke">
+							<img class="serviceimg" alt="man" src="assets/img/s2.png">
+						</figure>
+					</div>
+				</div>
+				<div class="offset-xl-1 col-lg-6 mt-5">
+					<div class="unique-solutions">
+						<div class="heading">
+							<h4 data-aos="fade-up" data-aos-delay="200" data-aos-duration="500" class="" style="color: #3EA300; font-family:'Times New Roman', Times, serif; font-weight: 600;font-size: 23px; font-weight: 700;  text-align: initial;
+							">About Our Services</h4>
+							<h2>Unique Solutions for
+								You Business</h2>
+						</div>
+						<p data-aos="fade-up" data-aos-delay="200" data-aos-duration="500">We are one of the facilities
+							management companies in UAE entrusted to provide integrated
+							facilities management solutions that meet our client’s expectations. Our core sectors
+							include hard services like technical & maintenance services, engineering, contracting and
+							construction. </p>
+						<div class="years-experience" data-aos="fade-up" data-aos-delay="200" data-aos-duration="500">
+							<h3>15<sup>+</sup></h3>
+							<h6>Years Experience <br>Working</h6>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+
+	<section class="portfolio gap" style="background-image: url('assets/img/bg1.png')">
+		<div class="container">
+			<div class="heading">
+				<p>Our Services</p>
+				<h2>Take a look at some of our services.</h2>
+			</div>
+			<div class="zoom-slider owl-carousel owl-loaded owl-drag">
+
+
+
+
+				<div class="owl-stage-outer">
+					<div class="owl-stage"
+						style="transition: all 0.25s ease 0s; width: 3720px; transform: translate3d(-744px, 0px, 0px);">
+						<div class="owl-item cloned" style="width: 372px;">
+							<div class="item zoom-slider-img" data-position="1">
+								<figure>
+									<img src="assets/img/ser1.png" style="border-radius: 20px;" alt="img">
+								</figure>
+								<div class="zoom-slider-data">
+									<h4>Security Services</h4>
+									<a href="services/security.html">
+										<h2>Security<br> Services</h2>
+									</a>
+									<h3>Security service management </h3>
+								</div>
+							</div>
+						</div>
+						<div class="owl-item cloned" style="width: 372px;">
+							<div class="item zoom-slider-img" data-position="2">
+								<figure>
+									<img src="assets/img/ser2.png" style="border-radius: 20px;" alt="img">
+
+								</figure>
+								<div class="zoom-slider-data">
+									<h4>Maintenance Services
+									</h4>
+									<a href="services/maintenance.html">
+										<h2>Maintenance<br> Services</h2>
+									</a>
+									<h3>Maintenance Services</h3>
+								</div>
+							</div>
+						</div>
+						<div class="owl-item cloned active" style="width: 372px;">
+							<div class="item zoom-slider-img" data-position="3">
+								<figure>
+									<img src="assets/img/ser3.png" style="border-radius: 20px;" alt="img">
+
+								</figure>
+								<div class="zoom-slider-data">
+									<h4>Cleaning Services
+									</h4>
+									<a href="services/cleaning.html">
+										<h2>Cleaning<br>Services</h2>
+									</a>
+									<h3>Cleaning Services</h3>
+								</div>
+							</div>
+						</div>
+						<div class="owl-item active center" style="width: 372px;">
+							<div class="item zoom-slider-img" data-position="0">
+								<figure>
+									<img src="assets/img/ser4.png" style="border-radius: 20px;" alt="img">
+
+								</figure>
+								<div class="zoom-slider-data">
+									<h4>Real Estate
+									</h4>
+									<a href="services/real-estate.html">
+										<h2>Real<br> Estate</h2>
+									</a>
+									<h3>Real Estate</h3>
+								</div>
+							</div>
+						</div>
+						<div class="owl-item active" style="width: 372px;">
+							<div class="item zoom-slider-img" data-position="1">
+								<figure>
+									<img src="assets/img/ser5.png" style="border-radius: 20px;" alt="img">
+
+								</figure>
+								<div class="zoom-slider-data">
+									<h4>Soft Services
+									</h4>
+									<a href="services/soft-service.html">
+										<h2>Soft<br> Services</h2>
+									</a>
+									<h3>Soft Services
+									</h3>
+								</div>
+							</div>
+						</div>
+						<div class="owl-item" style="width: 372px;">
+							<div class="item zoom-slider-img" data-position="2">
+								<figure>
+									<img src="assets/img/ser6.png" style="border-radius: 20px;" alt="img">
+
+								</figure>
+								<div class="zoom-slider-data">
+									<h4>Energy Management
+									</h4>
+									<a href="services/energy-management.html">
+										<h2>Energy<br> Management</h2>
+									</a>
+									<h3>Energy Management
+									</h3>
+								</div>
+							</div>
+						</div>
+						<div class="owl-item" style="width: 372px;">
+							<div class="item zoom-slider-img" data-position="3">
+								<figure>
+									<img src="assets/img/ser7.png" style="border-radius: 20px;" alt="img">
+
+								</figure>
+								<div class="zoom-slider-data">
+									<h4>Engineering Services</h4>
+									<a href="services/security.html">
+										<h2>Engineering<br>Services</h2>
+									</a>
+									<h3>Engineering Services</h3>
+								</div>
+							</div>
+						</div>
+						<div class="owl-item" style="width: 372px;">
+							<div class="item zoom-slider-img" data-position="0">
+								<figure>
+									<img src="assets/img/ser8.png" style="border-radius: 20px;" alt="img">
+
+								</figure>
+								<div class="zoom-slider-data">
+									<h4>Construction Service</h4>
+									<a href="services/security.html">
+										<h2>Construction<br> Service</h2>
+									</a>
+									<h3>Construction Service</h3>
+								</div>
+							</div>
+						</div>
+						<div class="owl-item" style="width: 372px;">
+							<div class="item zoom-slider-img" data-position="1">
+								<figure>
+									<img src="assets/img/ser9.png" style="border-radius: 20px;" alt="img">
+
+								</figure>
+								<div class="zoom-slider-data">
+									<h4>Manpower Supply</h4>
+									<a href="services/security.html">
+										<h2>Manpower<br> Supply</h2>
+									</a>
+									<h3>Manpower Supply</h3>
+								</div>
+							</div>
+						</div>
+						<div class="owl-item" style="width: 372px;">
+							<div class="item zoom-slider-img" data-position="2">
+								<figure>
+									<img src="assets/img/ser10.png" style="border-radius: 20px;" alt="img">
+
+								</figure>
+								<div class="zoom-slider-data">
+									<h4>AI
+									</h4>
+									<a href="services/security.html">
+										<h2>Artificial<br> Intelligence</h2>
+									</a>
+									<h3>Integration of Artificial Intelligence</h3>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="owl-nav"><button type="button" role="presentation" class="owl-prev">
+						<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+							class="bi bi-arrow-left" viewBox="0 0 16 16">
+							<path fill-rule="evenodd"
+								d="M15 8a.5.5 0 0 0-.5-.5H2.707l3.147-3.146a.5.5 0 1 0-.708-.708l-4 4a.5.5 0 0 0 0 .708l4 4a.5.5 0 0 0 .708-.708L2.707 8.5H14.5A.5.5 0 0 0 15 8z" />
+						</svg>
+					</button><button type="button" role="presentation" class="owl-next"><i
+							class="fa-solid fa-angle-right"></i></button></div>
+				<div class="owl-dots"><button role="button" class="owl-dot active"><span></span></button><button
+						role="button" class="owl-dot"><span></span></button><button role="button"
+						class="owl-dot"><span></span></button><button role="button"
+						class="owl-dot"><span></span></button></div>
+			</div>
+		</div>
+	</section>
+
+	<section class="about-unique gap no-bottom s1 mt-4">
+		<div class="container">
+			<h4 data-aos="fade-up" data-aos-delay="200" data-aos-duration="500" class="" style="color: #3EA300; font-family:'Times New Roman', Times, serif; font-weight: 600;font-size: 23px; font-weight: 700;  text-align: initial;
 			">Our Services</h4>
-			<h3 class="mb-5" style="font-size: 33px; font-weight: 700; margin-bottom: 20px; text-align: initial;
-			">Let’s Know About Our Services</h3>
-			<div class="card5 mb-3">
+			<h2 data-aos="fade-up" data-aos-delay="200" data-aos-duration="500" class="mb-5" style="margin-bottom: 20px; text-align: initial;
+			">Let’s Know About <br>Our Services</h2>
+			<div class="card5 mb-3" data-aos="fade-up" data-aos-delay="200" data-aos-duration="500">
 				<div class="left-column">
 					<p class="text2">Our Best Services</p>
 				</div>
@@ -344,7 +604,7 @@
 			</div>
 
 			<div class="card-container4">
-				<div class="card4">
+				<div class="card4" data-aos="fade-up" data-aos-delay="200" data-aos-duration="500">
 					<div class="card-image" style="background-image: url('assets/img/img1.png');"></div>
 					<div class="card-content">
 						<div class="card-desc">
@@ -358,7 +618,7 @@
 					</div>
 				</div>
 
-				<div class="card4">
+				<div class="card4" data-aos="fade-up" data-aos-delay="200" data-aos-duration="500">
 					<div class="card-image" style="background-image: url('assets/img/img2.png');"></div>
 					<div class="card-content">
 						<div class="card-desc">
@@ -372,7 +632,7 @@
 					</div>
 				</div>
 
-				<div class="card4">
+				<div class="card4" data-aos="fade-up" data-aos-delay="200" data-aos-duration="500">
 					<div class="card-image" style="background-image: url('assets/img/img3.png');"></div>
 					<div class="card-content">
 						<div class="card-desc">
@@ -385,7 +645,7 @@
 						</div>
 					</div>
 				</div>
-				<div class="card4">
+				<div class="card4" data-aos="fade-up" data-aos-delay="200" data-aos-duration="500">
 					<div class="card-image" style="background-image: url('assets/img/img5.png');"></div>
 					<div class="card-content">
 						<div class="card-desc">
@@ -399,7 +659,7 @@
 					</div>
 				</div>
 
-				<div class="card4">
+				<div class="card4" data-aos="fade-up" data-aos-delay="200" data-aos-duration="500">
 					<div class="card-image" style="background-image: url('assets/img/img4.png');"></div>
 					<div class="card-content">
 						<div class="card-desc">
@@ -413,7 +673,7 @@
 					</div>
 				</div>
 
-				<div class="card4">
+				<div class="card4" data-aos="fade-up" data-aos-delay="200" data-aos-duration="500">
 					<div class="card-image" style="background-image: url('assets/img/img6.png');"></div>
 					<div class="card-content">
 						<div class="card-desc">
@@ -573,8 +833,8 @@
 						<div class="newsletter">
 							<h4>Quick Links</h4>
 							<ul class="links">
-								<li><a href="#">Home</a></li>
-								<li><a href="#">About Us</a></li>
+								<li><a href="index.html">Home</a></li>
+								<li><a href="about.html">About Us</a></li>
 								<li><a href="#">Services</a></li>
 								<li><a href="#">Gallery</a></li>
 								<li><a href="#">Contact US</a></li>

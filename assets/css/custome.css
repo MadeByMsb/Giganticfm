@@ -108,6 +108,7 @@
     background-color: #DCFFC7;
     transform: scale(1.05);
     border: 2px solid #3EA300;
+    
 
 }
 
@@ -237,6 +238,13 @@
     width: 100%;
     height: 100%;
     background-size: cover;
+    transition: transform 0.3s;
+
+}
+
+.card-image:hover{
+    transform: scale(1.1);
+
 }
 
 .card-content {
@@ -339,3 +347,99 @@
     height: 100vh;
     background-image: url(../images/shape/dot-grid.png);
 }
+
+
+.s1 {
+    margin-top: -104px;
+}
+
+@media screen and (max-width: 768px) {
+    .s1 {
+        margin-top: 0;
+    }
+}
+
+
+.card6 {
+    background-color: rgb(252, 252, 252);
+    border: 4px dotted rgb(94, 94, 94);
+    border-radius: 20px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+.row2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.column2 {
+    flex: 1;
+}
+
+/* Responsive Styles */
+@media screen and (max-width: 480px) {
+    .card6 {
+        max-width: 100%;
+    }
+}
+
+.blog-style {
+    border: 1px solid #00d794;
+    padding: 84px 40px 40px;
+    position: relative;
+    background-color: white;
+    border-radius: 44px;
+    margin-top: 57px;
+}
+
+.column {
+    flex: 1 1 50%;
+    /* This will split the columns evenly */
+    padding: 10px;
+}
+
+.image2 {
+    flex: 1;
+}
+
+.image2 img {
+    height: auto;
+    width: 1371px;
+    margin-left: -126px;
+}
+
+@media (max-width: 767px) {
+    .column {
+        flex-basis: 100%;
+        /* On smaller screens, make the columns take up the full width */
+    }
+
+    .image2 img {
+        display: none;
+    }
+}
+
+.about-comp {
+    width: 434px;
+    margin-left: 782px;
+    margin-top: -265px;
+}
+
+@media screen and (max-width: 768px) {
+    .about-comp {
+        display: none;
+    }
+}
+
+@media (max-width: 576px){
+.zoom-slider .owl-nav, .shape-style:before {
+    display: flex;
+}}
