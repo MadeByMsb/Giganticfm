@@ -100,3 +100,20 @@
                     </div>
                 </div>
             </div>
+
+
+
+        
+                            Security
+                          Technical & Maintenance
+                            Cleaning
+                            Real Estate
+                            Soft services
+                           Energy Management
+                           Engineering
+                           Construction
+                           Manpower Supply
+                            Integration of Artificial Intelligence
+                           Quality Testing
+                            IT Support
+                    
