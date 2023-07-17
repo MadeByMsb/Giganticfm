@@ -2345,10 +2345,7 @@ ul.logos li {
     position: relative;
     z-index: 111111111;
 }
-ul.logos li img {
-    filter: grayscale(1);
-    opacity: .5;
-}
+
 ul.logos li:hover img{
     filter: initial;
     opacity: 1;
