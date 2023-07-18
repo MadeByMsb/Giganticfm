@@ -400,6 +400,14 @@
     margin-top: 57px;
 }
 
+.blog-style2 {
+    border: 1px solid #c5c5c5;
+    padding: 84px 40px 40px;
+    position: relative;
+    background-color: white;
+    margin-top: 57px;
+}
+
 .column {
     flex: 1 1 50%;
     /* This will split the columns evenly */
@@ -802,4 +810,103 @@ ul.logos li {
     margin-left: -1px;
     margin-top: -2px;
     border-radius: 20px;
+}
+
+
+.card12 {
+    width: 252px;
+    height: 235px;
+    background: white;
+    border-radius: 30px;
+    transition: 0.2s ease-in-out;
+}
+.card12:hover {
+    cursor: pointer;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.1);
+    transform: scale(1.1);
+}
+@media screen and (max-width: 768px) {
+	.card12 {
+        width: 50%;
+        transition: none;
+    }	
+    .card12:hover {
+        cursor: pointer;
+        box-shadow: none;
+        transform: none;
+    }
+   	
+}
+
+
+
+.save {
+    transition: 0.2s ease-in-out;
+    border-radius: 10px;
+    margin: 20px;
+    width: 30px;
+    height: 30px;
+    background-color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.text {
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: space-around;
+}
+
+.save .svg {
+    transition: 0.2s ease-in-out;
+    width: 15px;
+    height: 15px;
+}
+
+.icon-box {
+    margin-top: 15px;
+    width: 70%;
+    padding: 10px;
+    background-color: #d8ffe4;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+}
+
+.icon-box svg {
+    width: 17px;
+}
+
+.text .h3 {
+    font-family: 'Lucida Sans' sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+    color: black;
+}
+
+.text .p {
+    font-family: 'Lucida Sans' sans-serif;
+    color: #999999;
+    font-size: 13px;
+}
+
+.icon-box .span {
+    margin-left: 10px;
+    font-family: 'Lucida Sans' sans-serif;
+    font-size: 13px;
+    font-weight: 500;
+    color: #9198e5;
+}
+
+
+
+.save:hover {
+    transform: scale(1.1) rotate(10deg);
+}
+
+.save:hover .svg {
+    fill: #ced8de;
 }
