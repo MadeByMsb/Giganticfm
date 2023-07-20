@@ -910,3 +910,25 @@ ul.logos li {
 .save:hover .svg {
     fill: #ced8de;
 }
+
+.planning-make.three:before {
+    content: "3";
+    display: none;
+}
+
+@media (max-width: 1400px){
+.planning-make:before {
+    display: none;
+    height: 25px;
+    width: 25px;
+    top: -2%;
+    font-size: 14px;
+}}
+
+@media (max-width: 1400px){
+.planning-make:after {
+    height: 730px;
+    left: 8.5%;
+    top: 73%;
+    z-index: -1;
+}}
